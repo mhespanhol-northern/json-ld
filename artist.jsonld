@@ -1,0 +1,64 @@
+{
+  "@version": 1.0,
+  "@context": [
+    "http://schema.org",
+    {
+      "name": {
+        "@id": "schema:name",
+        "@container": "@language"
+      },
+      "familyName": {
+        "@id": "schema:familyName",
+        "@container": "@language"
+      },
+      "givenName": {
+        "@id": "schema:givenName",
+        "@container": "@language"
+      },
+      "description": {
+        "@id": "schema:disambiguatingDescription",
+        "@container": "@language"
+      },
+      "disambiguatingDescription": {
+        "@id": "schema:disambiguatingDescription",
+        "@container": "@language"
+      },
+      "streetAddress": {
+        "@id": "schema:streetAddress",
+        "@container": "@language"
+      },
+      "addressLocality": {
+        "@id": "schema:addressLocality",
+        "@container": "@language"
+      },
+      "addressRegion": {
+        "@id": "schema:addressRegion",
+        "@container": "@language"
+      },
+      "addressCountry": {
+        "@id": "schema:addressCountry",
+        "@container": "@language"
+      },
+      "type": {
+        "@id": "@type"
+      }
+    }
+  ],
+  "@explicit": true,
+  "@requireAll": false,
+  "@omitDefault": true,
+  "@type": [
+    "Organization",
+    "Person"
+  ],
+  "name": {},
+  "familyName": {},
+  "givenName": {},
+  "description": {},
+  "disambiguatingDescription": {},
+  "url": {},
+  "sameAs": {},
+  "telephone": {},
+  "email": {},
+  "address": {}
+}
